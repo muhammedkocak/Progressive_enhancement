@@ -1,0 +1,37 @@
+body {
+    max-width: 90%;
+    margin: auto;
+}
+.p {
+
+    font-size: 12px;
+    font-family: serif;
+    line-height: 1.3em;
+	color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: springgreen;
+
+}
+
+a:hover {
+    background-color: navy;
+
+}
+
+blockquote {
+
+    font-size: 160%;
+    background-color: lightslategrey;
+    width: 45%;
+    margin: 80px auto;
+    border-left: 3px dotted;
+
+    
+}
