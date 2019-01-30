@@ -1,6 +1,14 @@
 body {
     max-width: 90%;
     margin: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/11/19/09/paper-3311430_960_720.png);
+    background-repeat: no-repeat;
+    background-position: bottom, right;
+    background-size: cover;
+}
+
+header {
+    background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
 }
 .p {
 
@@ -31,7 +39,23 @@ blockquote {
     background-color: lightslategrey;
     width: 45%;
     margin: 80px auto;
-    border-left: 3px dotted;
-
+    border-left: 3px dashed;
+    padding: 10px 50px 10px 50px;
     
+}
+
+q {
+   
+    font-style: italic;
+}
+
+.farmer {
+    border-left: 3px solid red;
+
+}
+
+.villager {
+
+    border-left: green 3px solid;
+
 }
