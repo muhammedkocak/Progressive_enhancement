@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalize.css">
     <title>Progressive Enhancement</title>
 
 </head>
@@ -12,12 +14,10 @@
     <header>
         <hgroup>
             <h1>The Story of the Chinese Farmer</h1>
-            <figure>
-                <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg "width="33%" height="33%" alt="Image">
-                <figcaption><time datetime="2016-05-11">11 may 2016</time>, Alexandre Gorius</figcaption>
-            </figure>
+          </hgroup>  
     </header>
-        </hgroup>
+        
+        <aside class="notification">LET OP!!!</aside>
         <h2>Preamble</h2>
         <ul>            
             <li>read this once</li>
@@ -27,8 +27,12 @@
             <li><a href="https://aax-us-east.amazon-adsystem.com/x/c/QqNjvU26grKrlLklrSDVLD4AAAFomT5nOAEAAAFKAZONWDc/https://assoc-redirect.amazon.com/g/r/https://amzn.to/2yu5fzV?linkCode=w61&imprToken=FLYoCDwGRnfOSU9sTCPARg&slotNum=2" target="_blank" title="Video2">and this </a></li>
             <li><a href="https://www.facebook.com/ggconservation/videos/2135011126750975/" target="_blank" title="Lionnn">LionKing</a></li>
         </ul>
+        <figure>
+          <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="Image">
+          <figcaption><time datetime="2016-05-11">11 may 2016</time>, Alexandre Gorius</figcaption>
+      </figure>
         <h2>The story</h2>
-        <p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="villager">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <strong><q class="farmer">Maybe</q></strong>. The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="villager">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <strong><q class="farmer">Maybe</q></strong>.</p> 
+        <p class="firstp">Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="villager">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <strong><q class="farmer">Maybe</q></strong>. The next day the horse came back bring seven wild horses with it, and in the evening everybody came back and said, <q class="villager">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <strong><q class="farmer">Maybe</q></strong>.</p> 
 
         <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="villager">Oh dear, that’s too bad,</q> and the farmer responded, <strong><q class="farmer">Maybe</q></strong>. The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="villager">Isn’t that great!</q> Again, he said, <strong><q class="farmer">Maybe</q></strong>.</p>
 
@@ -41,7 +45,7 @@
         <table>
                 <tr>
                   <th>Event</th>
-                  <th class="good bad">Good or Bad?</th>
+                  <th class="good_bad"><span class="good">Good</span> or <span class="bad">Bad</span>?</th>
                 </tr>
                 <tr>
                   <td>Lose a horse</td>
@@ -64,10 +68,11 @@
               <p>Table representing the farmer's philosophy.</p>
 
               <h3>Conclusion</h3>
-              <p class="good bad">Good and Bad are just one perspective. Bananas are good for monkeys, but monkeys are not good for bananas. Let's not make a big deal out of it...</p>
+              <p><span class="good">Good</span> and <span class="bad">Bad</span> are just one perspective. Bananas are <span class="good">good</span> for monkeys, but monkeys are not <span class="good">good</span> for bananas. Let's not make a big deal out of it...</p>
               <hr>
               <footer>
                   <p>Copyright Just Another Company 2017. All right reserved. Adapted from this article: <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/">https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/</a><br/><br/></p>
+                </footer>
 
 
 

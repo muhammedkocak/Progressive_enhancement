@@ -5,10 +5,16 @@ body {
     background-repeat: no-repeat;
     background-position: bottom, right;
     background-size: cover;
+    font-family: 'Noto Serif SC', serif;
+    
+}
+h1,h2,h3 {
+    font-family: 'Abril Fatface', cursive;
 }
 
 header {
     background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
+    opacity: 0.5;
 }
 .p {
 
@@ -41,6 +47,7 @@ blockquote {
     margin: 80px auto;
     border-left: 3px dashed;
     padding: 10px 50px 10px 50px;
+    font-style: italic;
     
 }
 
@@ -58,4 +65,93 @@ q {
 
     border-left: green 3px solid;
 
+}
+
+
+
+.good {
+    color:green;
+    text-transform: capitalize;
+}
+.bad {
+    color:red;
+    text-transform: capitalize;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:nth-of-type(odd) {
+    background-color: grey;
+}
+
+li:first-child {
+    margin: 0;
+    padding: 10px 0px 10px 40px;
+    list-style: none;
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    
+}
+li:first-child {
+    margin: 0;
+    padding: 10px 0px 10px 40px;
+    list-style: none;
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    
+}
+
+li:nth-child(2) {
+    margin: 0;
+    padding: 10px 0px 10px 40px;
+    list-style: none;
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    
+}
+
+
+li:nth-child(3) {
+    margin: 0;
+    padding: 10px 0px 10px 40px;
+    list-style: none;
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    
+}
+.firstp {
+    font-weight: bold;
+}
+
+figure {
+    float: right;
+    width: 40%;
+}
+figure img {
+    width: 75%;
+    height: 75%;
+}
+
+.notification {
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:100px;
+    height: 20px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    
 }
